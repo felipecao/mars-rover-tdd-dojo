@@ -42,6 +42,7 @@ degrees left or right respectively, without moving from its current spot.
 Assume that the square directly North from (x, y) is (x, y+1).
 
 **INPUT**
+
 The first line of input is the upper-right coordinates of the plateau, the
 lower-left coordinates are assumed to be 0,0.
 
