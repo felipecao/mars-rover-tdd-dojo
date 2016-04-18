@@ -1,20 +1,24 @@
 
 # The Three Laws of TDD
 
-1- You may not write production code until you have written a failing unit test. 
+1- You may not write production code until you have written a failing unit test.
+ 
 2- You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+
 3- You may not write more production code than is sufficient to pass the currently failing test.
 
 
 # Four rules of Simple Design
 
 1- Runs all the tests
+
 2- Contains no duplication
+
 3- Expresses the intent of the programmer
+
 4- Minimizes the number of classes and methods
 
-IMPORTANT: although it’s important to keep class and function count low, it’s more important
- to have tests, eliminate duplication, and express yourself.
+IMPORTANT*: although it’s important to keep class and function count low, it’s more important to have tests, eliminate duplication, and express yourself.
 
 
 # MARS ROVER
@@ -37,7 +41,7 @@ degrees left or right respectively, without moving from its current spot.
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-INPUT:
+*INPUT*:
 The first line of input is the upper-right coordinates of the plateau, the
 lower-left coordinates are assumed to be 0,0.
 
@@ -52,18 +56,18 @@ corresponding to the x and y co-ordinates and the rover’s orientation.
 Each rover will be finished sequentially, which means that the second rover
 won’t start to move until the first one has finished moving.
 
-OUTPUT
+*OUTPUT*
 The output for each rover should be its final co-ordinates and heading.
 
-INPUT AND OUTPUT
+*INPUT AND OUTPUT*
 
-Test Input:
+_Test Input_:
 5 5
 1 2 N
 LMLMLMLMM
 3 3 E
 MMRMMRMRRM
 
-Expected Output:
+_Expected Output_:
 1 3 N
 5 1 E
