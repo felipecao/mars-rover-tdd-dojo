@@ -18,7 +18,7 @@
 
 4- Minimizes the number of classes and methods
 
-IMPORTANT*: although it’s important to keep class and function count low, it’s more important to have tests, eliminate duplication, and express yourself.
+**IMPORTANT**: although it’s important to keep class and function count low, it’s more important to have tests, eliminate duplication, and express yourself.
 
 
 # MARS ROVER
@@ -41,7 +41,7 @@ degrees left or right respectively, without moving from its current spot.
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-*INPUT*:
+**INPUT**
 The first line of input is the upper-right coordinates of the plateau, the
 lower-left coordinates are assumed to be 0,0.
 
@@ -56,12 +56,14 @@ corresponding to the x and y co-ordinates and the rover’s orientation.
 Each rover will be finished sequentially, which means that the second rover
 won’t start to move until the first one has finished moving.
 
-*OUTPUT*
+**OUTPUT**
+
 The output for each rover should be its final co-ordinates and heading.
 
-*INPUT AND OUTPUT*
+**INPUT AND OUTPUT**
 
 _Test Input_:
+
 5 5
 1 2 N
 LMLMLMLMM
@@ -69,5 +71,6 @@ LMLMLMLMM
 MMRMMRMRRM
 
 _Expected Output_:
+
 1 3 N
 5 1 E
